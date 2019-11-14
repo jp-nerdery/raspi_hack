@@ -17,4 +17,7 @@ def get_distance_matrix(x,mode="euclidean",p=2.):
     """
 
     return squareform(distance.pdist(x, metric=mode, p=p)) 
-print(get_distance_matrix([[1,2,2],[1,2,3]]))
+
+if __name__ == '__main__':
+    x = [[1,2,2],[1,2,3]]
+    print(get_distance_matrix(x))
