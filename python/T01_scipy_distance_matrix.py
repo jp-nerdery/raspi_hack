@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 # require scipy
 # pip install scipy
 from scipy.spatial import distance 
