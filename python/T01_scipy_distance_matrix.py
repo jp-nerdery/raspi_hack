@@ -11,7 +11,7 @@ from scipy.spatial.distance import squareform
 def get_distance_matrix(x,mode="euclidean",p=2.):
     """
     ベクトルデータの距離行列を得る
-    return：距離行列
+    return: none
     
     Example
     input:[[1,2,2],[1,2,3]]
